@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+   <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header>
+	<h1>Justin Hill</h1>
+</header>
+
+<nav id="up_nav">
+<ul>
+  <li onclick="openPage('about')">About</li>
+  <li onclick="openPage('projects')" id="tabDefault">Projects</li>
+  <li onclick="openPage('links')">Links</li>
+</ul>
+</nav>
+
+<nav id="side_nav">
+  <h2>Featured</h2>
+  <hr>
+  <p id="selectDefault" onclick="openPage('words_on_words')">  Words On Words</p>
+  <p onclick="openPage('hackathons')">Hackathons</p>
+  <p onclick="openPage('houalert')">HOUalert</p>
+  <p onclick="openPage('pagerank_cfb')">PageRank CFB</p>
+  <hr>
+  <h2>All</h2>
+  <hr>
+  <small>
+    <p onclick="openPage('pagerank_cfb')">PageRank CFB</p>
+    <p onclick="openPage('hackathons')">Hackathons</p>
+    <p onclick="openPage('twitlibs')">Twitlibs</p>
+    <p onclick="openPage('msbp')">  MSBP</p>
+    <p onclick="openPage('cfg')">Code For Good</p>
+    <p onclick="openPage('houalert')">HOUalert</p>
+    <p id="selectDefault" onclick="openPage('words_on_words')">Words On Words</p>
+    <p onclick="openPage('comet_reader')">Comet Reader</p>
+    <p onclick="openPage('set_games')">SET Games</p>
+  </small>
+</nav>
+
+<main id="main">
+  <img src="wow.PNG" alt="<Words on Words>" style="width:253px;height:450px;">
+    <h2>Words On Words</h2>
+    <p>Words On Words is a physics based word game I created and published on iOS and Android using Unity. The goal of the game is to drop letter blocks from the top of the screen in such a way that they land on other letter blocks to from words. The game contains over sixty unique levels as well as free play mode that each contain different types of blocks, letters, and objectives.</p>
+    <a href="https://play.google.com/store/apps/details?id=com.PrintlnStudios.WordsOnWords&hl=en">Google Play</a>
+    <a href="https://itunes.apple.com/app/id903746625">iOS App Store</a>
+    <a href="https://github.com/jhillkwaj/WordsOnWords">GitHub</a>
+</main>
+
+<script src="nav.js"></script>
+
+<footer>
+	<p id="foot">© 2016 Justin Hill</p>
+</footer>
+
+
+
+</body>
+</html>
