@@ -23,6 +23,7 @@
       <h3 onclick="openPage('twitlibs')">CodeRED Liftoff (Houston, TX)</h3>
       <h3 onclick="openLink('http://devpost.com/software/hackrice-stockapp')">HACKRICE (Houston, TX)</h3>
       <h3 onclick="openLink('http://jhillkwaj.github.io/JollyGameJamSpring2016/')">Jolly Game Jam Spring 2016 (Austin, Tx)</h3>
+      <h3 onclick="openLink('http://devpost.com/software/hackutd')">HackUTD (Dallas, TX)</h3>
     </ul>
 </main>
 
