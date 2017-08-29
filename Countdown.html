@@ -1,0 +1,23 @@
+<html>
+<body>
+
+<script>
+today=new Date();
+var cmas=new Date(today.getFullYear(), 11, 25);
+
+var strings = ["Bday", "Back At College", "Water Park (tentative)", "Spring Break", "End of Trump's First Term"];
+
+var dates = [new Date(2017, 1, 16), new Date(2017, 7, 27), new Date(2017, 8, 2), new Date(2018, 2, 10), new Date(2021, 0, 20)];
+
+var one_day=1000*60*60*24;
+
+for(i = 0; i < dates.length && i < strings.length; ++i) {
+	if (today.getTime() < dates[i].getTime() ) 
+	{
+		document.write(Math.ceil((dates[i].getTime()-today.getTime())/(one_day)) + " Days Until " + strings[i] + "<br>");
+	}  
+}
+</script>
+
+</body>
+</html> 
